@@ -116,7 +116,7 @@ a {
     #aa40e3,
     #e44066
   );
-  box-shadow: 0 7px 25px 3px rgba(132, 64, 228, 0.75);
+  box-shadow: 0 7px 25px 3px rgba(0, 0, 0, 0.75);
 }
 
 .btn-hover1 {
@@ -163,28 +163,24 @@ a {
   align-items: center;
   margin: 0 auto;
   color: white;
+  align:center;
 }
 
 .cards-list {
-
   z-index: 0;
-  width: 80%;
-  display: inline-block;
+  width: 100%;
+  display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  align-content:center;
-  margin:0 auto:
-  
 }
 
 .card {
-  display:inline-flex;
-  margin-bottom:30px;
-  height:350;
-  width:350;
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
   border-radius: 40px;
-  box-shadow: 5px 5px 30px 10px rgba(0, 0, 0, 0.3),
-    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  cursor: pointer;
   transition: 0.4s;
 }
 
@@ -209,8 +205,8 @@ a {
   font-size: 60px;
   font-style: italic;
   letter-spacing: 6px;
-  margin-top: 135px;
-  margin-left:70px;
+  margin-top: -180px;
+  margin-left:42px;
 }
 
 .card .card_titlea {
@@ -221,8 +217,8 @@ a {
   font-size: 60px;
   font-style: italic;
   letter-spacing: 6px;
-  margin-top: 100;
-  margin-left:20px;
+  margin-top: -210px;
+  margin-left: 30px;
 }
 
 .card .card_titleb {
@@ -233,8 +229,8 @@ a {
   font-size: 60px;
   font-style: italic;
   letter-spacing: 6px;
-  margin-top: 160;
-  margin-left:60px;
+  margin-top: -165px;
+  margin-left:30px;
 }
 
 .card:hover {
@@ -245,7 +241,7 @@ a {
 
 @media all and (max-width: 500px) {
   .card-list {
-    /* On small screens, we are no longer using row direction but column */
+    /* On small screens, no longer use row but column */
     flex-direction: column;
   }
 }

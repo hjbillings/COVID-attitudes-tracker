@@ -10,18 +10,14 @@
   background: #132533;
   justify-content: center;
 }
-.wrap {
-  position: absolute;
-  color: white;
-  height: 140px;
-  width: 100%;
-}
+
 .menu ul {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom:0px;
 }
 
 .menu li {
@@ -112,7 +108,7 @@ a {
     #aa40e3,
     #e44066
   );
-  box-shadow: 0 7px 25px 3px rgba(132, 64, 228, 0.75);
+  box-shadow: 0 7px 25px 3px rgba(0, 0, 0, 0.75);
 }
 
 .btn-hover1 {
